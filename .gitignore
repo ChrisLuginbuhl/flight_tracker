@@ -1,5 +1,8 @@
 # Added by Chris
 credentials.py
+*.json
+min_test.py
+pyvenv.cfg
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
