@@ -2,9 +2,15 @@
 # looks up IATA codes for those cities if any are missing, and searches for flights according to serach parameters
 # in constants below. Results for most recent search saved in log file.  If any results that are below the price
 # threshold, a notification is sent via SMS (Twilio)
+#
+# Config & docs for APIs:
+# https://dashboard.sheety.co/projects/6282939e8290330377c942c2/auth
+# https://www.twilio.com/docs/sms
+# https://tequila.kiwi.com/portal/docs/tequila_api/search_api
+#
 # Chris Luginbuhl May 2022.
 
-# Note that one_for_city as a Tequila search parameter no longer works (as used in Udemy solution).
+# Note that one_for_city as a Tequila search parameter no longer works (as recommended by 100 DoC).
 
 from data_manager import DataManager
 from flight_search import FlightSearch
